@@ -14,7 +14,7 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 from typing import Union, AsyncGenerator, AsyncContextManager, Dict, Optional, List
-from contextlib import asynccontextmanager
+from .async_contextlib import asynccontextmanager
 from dataclasses import dataclass
 import logging
 import asyncio

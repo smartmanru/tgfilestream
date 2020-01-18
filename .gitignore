@@ -3,3 +3,19 @@
 
 __pycache__
 *.pyc
+*/pycache/*
+
+
+.editorconfig
+bin/
+build/
+lib/
+*pycache/
+dist/
+include/
+share/
+tgfilestream.egg-info/entry_points.txt
+
+*.egg-info/
+.venv
+.env
